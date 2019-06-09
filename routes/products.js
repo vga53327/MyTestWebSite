@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {
-    res.render("./products/products.ejs")
+    res.render("./products/products.ejs");
     // res.send('我是產品清單');
 });
 
